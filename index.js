@@ -36,7 +36,7 @@ var json = {
                 "3.A",
                 "3.B",
                 "3.C",
-                "No Preference"
+                "None"
             ]
         }, {
             type: "html",
@@ -52,7 +52,7 @@ var json = {
                 "4.A",
                 "4.B",
                 "4.C",
-                "No Preference"
+                "None"
             ]
         }, {
             type: "html",
@@ -68,7 +68,7 @@ var json = {
                 "5.A",
                 "5.B",
                 "5.C",
-                "No Preference"
+                "None"
             ]
         }, {
             type: "html",
@@ -84,7 +84,7 @@ var json = {
                 "6.A",
                 "6.B",
                 "6.C",
-                "No Preference"
+                "None"
             ]
         }, {
             type: "html",
@@ -100,7 +100,7 @@ var json = {
                 "7.A",
                 "7.B",
                 "7.C",
-                "No Preference"
+                "None"
             ]
         }, {
             type: "html",
