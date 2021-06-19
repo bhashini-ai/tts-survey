@@ -28,7 +28,7 @@ var json = {
             ]
         }, {
             type: "radiogroup",
-            name: "3",
+            name: "U1",
             title: "Which of the following audios do you prefer?",
             isRequired: true,
             colCount: 4,
@@ -44,7 +44,7 @@ var json = {
             html: "<div class='container'><div class='item'>A <audio controls><source src='assets/01A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/01B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/01C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
-            name: "4",
+            name: "U2",
             title: "Which of the following audios do you prefer?",
             isRequired: true,
             colCount: 4,
@@ -60,7 +60,7 @@ var json = {
             html: "<div class='container'><div class='item'>A <audio controls><source src='assets/02A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/02B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/02C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
-            name: "5",
+            name: "U3",
             title: "Which of the following audios do you prefer?",
             isRequired: true,
             colCount: 4,
@@ -76,7 +76,7 @@ var json = {
             html: "<div class='container'><div class='item'>A <audio controls><source src='assets/03A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/03B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/03C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
-            name: "6",
+            name: "U4",
             title: "Which of the following audios do you prefer?",
             isRequired: true,
             colCount: 4,
@@ -92,7 +92,7 @@ var json = {
             html: "<div class='container'><div class='item'>A <audio controls><source src='assets/04A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/04B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/04C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
-            name: "7",
+            name: "U5",
             title: "Which of the following audios do you prefer?",
             isRequired: true,
             colCount: 4,
@@ -126,7 +126,7 @@ survey
 		error: function(xhr, resp, text) {
 		  console.log(xhr, resp, text);
 		  document.querySelector('#surveyResult').textContent = "Error submitting survey responses:\n" +
-		    '<strong>' + xhr.status + ' ' + xhr.statusText + '</strong>' + xhr.responseText;
+		    xhr.status + ' ' + xhr.statusText + ' ' + xhr.responseText;
 		}
 	  });
 
