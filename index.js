@@ -115,9 +115,21 @@ window.survey = new Survey.Model(json);
 survey
     .onComplete
     .add(function (sender) {
-        document
-            .querySelector('#surveyResult')
-            .textContent = "Result JSON:\n" + JSON.stringify(sender.data, null, 3);
+	  $.ajax({
+		url: "/api/tts-survey",
+		type: "POST",
+		data: JSON.stringify(sender.data),
+		contentType: "application/json; charset=utf-8",
+		success : function(result) {
+		  document.querySelector('#surveyResult').textContent = "Successfully submitted survey responses";
+		},
+		error: function(xhr, resp, text) {
+		  console.log(xhr, resp, text);
+		  document.querySelector('#surveyResult').textContent = "Error submitting survey responses:\n" +
+		    '<strong>' + xhr.status + ' ' + xhr.statusText + '</strong>' + xhr.responseText;
+		}
+	  });
+
     });
 
 function onAngularComponentInit() {
