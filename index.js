@@ -33,15 +33,15 @@ var json = {
             isRequired: true,
             colCount: 4,
             choices: [
-                "3.A",
-                "3.B",
-                "3.C",
+                "A",
+                "B",
+                "C",
                 "None"
             ]
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>3.A <audio controls><source src='assets/01A.wav' type='audio/ogg'></audio></div><div class='item'>3.B <audio controls><source src='assets/01B.wav' type='audio/ogg'></audio></div><div class='item'>3.C <audio controls><source src='assets/01C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/01A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/01B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/01C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "4",
@@ -49,15 +49,15 @@ var json = {
             isRequired: true,
             colCount: 4,
             choices: [
-                "4.A",
-                "4.B",
-                "4.C",
+                "A",
+                "B",
+                "C",
                 "None"
             ]
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>4.A <audio controls><source src='assets/02A.wav' type='audio/ogg'></audio></div><div class='item'>4.B <audio controls><source src='assets/02B.wav' type='audio/ogg'></audio></div><div class='item'>4.C <audio controls><source src='assets/02C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/02A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/02B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/02C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "5",
@@ -65,15 +65,15 @@ var json = {
             isRequired: true,
             colCount: 4,
             choices: [
-                "5.A",
-                "5.B",
-                "5.C",
+                "A",
+                "B",
+                "C",
                 "None"
             ]
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>5.A <audio controls><source src='assets/03A.wav' type='audio/ogg'></audio></div><div class='item'>5.B <audio controls><source src='assets/03B.wav' type='audio/ogg'></audio></div><div class='item'>5.C <audio controls><source src='assets/03C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/03A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/03B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/03C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "6",
@@ -81,15 +81,15 @@ var json = {
             isRequired: true,
             colCount: 4,
             choices: [
-                "6.A",
-                "6.B",
-                "6.C",
+                "A",
+                "B",
+                "C",
                 "None"
             ]
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>6.A <audio controls><source src='assets/04A.wav' type='audio/ogg'></audio></div><div class='item'>6.B <audio controls><source src='assets/04B.wav' type='audio/ogg'></audio></div><div class='item'>6.C <audio controls><source src='assets/04C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/04A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/04B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/04C.wav' type='audio/ogg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "7",
@@ -97,15 +97,15 @@ var json = {
             isRequired: true,
             colCount: 4,
             choices: [
-                "7.A",
-                "7.B",
-                "7.C",
+                "A",
+                "B",
+                "C",
                 "None"
             ]
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>7.A <audio controls><source src='assets/05A.wav' type='audio/ogg'></audio></div><div class='item'>7.B <audio controls><source src='assets/05B.wav' type='audio/ogg'></audio></div><div class='item'>7.C <audio controls><source src='assets/05C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/05A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/05B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/05C.wav' type='audio/ogg'></audio></div></div>"
         }
     ]
 };
