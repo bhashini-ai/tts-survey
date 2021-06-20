@@ -41,7 +41,7 @@ var json = {
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/01A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/01B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/01C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/01A.wav' type='audio/mpeg'></audio></div><div class='item'>B <audio controls><source src='assets/01B.wav' type='audio/mpeg'></audio></div><div class='item'>C <audio controls><source src='assets/01C.wav' type='audio/mpeg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "U2",
@@ -57,7 +57,7 @@ var json = {
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/02A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/02B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/02C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/02A.wav' type='audio/mpeg'></audio></div><div class='item'>B <audio controls><source src='assets/02B.wav' type='audio/mpeg'></audio></div><div class='item'>C <audio controls><source src='assets/02C.wav' type='audio/mpeg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "U3",
@@ -73,7 +73,7 @@ var json = {
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/03A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/03B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/03C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/03A.wav' type='audio/mpeg'></audio></div><div class='item'>B <audio controls><source src='assets/03B.wav' type='audio/mpeg'></audio></div><div class='item'>C <audio controls><source src='assets/03C.wav' type='audio/mpeg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "U4",
@@ -89,7 +89,7 @@ var json = {
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/04A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/04B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/04C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/04A.wav' type='audio/mpeg'></audio></div><div class='item'>B <audio controls><source src='assets/04B.wav' type='audio/mpeg'></audio></div><div class='item'>C <audio controls><source src='assets/04C.wav' type='audio/mpeg'></audio></div></div>"
         }, {
             type: "radiogroup",
             name: "U5",
@@ -105,7 +105,7 @@ var json = {
         }, {
             type: "html",
             name: "info",
-            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/05A.wav' type='audio/ogg'></audio></div><div class='item'>B <audio controls><source src='assets/05B.wav' type='audio/ogg'></audio></div><div class='item'>C <audio controls><source src='assets/05C.wav' type='audio/ogg'></audio></div></div>"
+            html: "<div class='container'><div class='item'>A <audio controls><source src='assets/05A.wav' type='audio/mpeg'></audio></div><div class='item'>B <audio controls><source src='assets/05B.wav' type='audio/mpeg'></audio></div><div class='item'>C <audio controls><source src='assets/05C.wav' type='audio/mpeg'></audio></div></div>"
         }
     ]
 };
