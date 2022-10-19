@@ -3,14 +3,14 @@ Survey
     .applyTheme("default");
 
 var json = {
-	title: "RaGaVeRa TTS Evaluation",
+	title: "Bhashini TTS Evaluation",
 	description: "We seek your support for comparing 3 different TTS engines. \n Below you will find five sets of 3 audio clips each labeled A, B & C.  These audio clips are synthesized using three distinct TTS technologies.  We request you to kindly evaluate the relative quality of the synthesized speech outputs.  Please listen to the audio clips and choose the one you prefer.",
     questions: [
         {
             name: "name",
             type: "text",
             title: "Please enter your name:",
-            placeHolder: "Dr. Shiva Kumar H R",
+            placeHolder: "Shiva Kumar H R",
             isRequired: true,
             autoComplete: "name"
         }, {
@@ -18,7 +18,7 @@ var json = {
             type: "text",
             inputType: "email",
             title: "Your e-mail:",
-            placeHolder: "shivahr@ragavera.com",
+            placeHolder: "shiva@bhashini.ai",
             isRequired: true,
             autoComplete: "email",
             validators: [
